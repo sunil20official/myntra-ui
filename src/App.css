@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  height: 400vh;
+  overflow: hidden;
+}
+
+body{
+  font-family: "Roboto",sans-serif !important;
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+  background-color: #fff !important;
+  color: #333 !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav{
+  width: 100%;
+  position:fixed;
+  height: 4.5rem;
+  box-shadow: 0px 12px 10px -15px #111;
+  background-color: white;
+}
+
+.flex{
+  display:flex;
+}
+
+.justify-space-btw{
+  justify-content:space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.logo{
+  height: 40px;
+  width: 70px;
+  margin-top: 12px;
+}
+
+.left li{
+  margin: 5px 10px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #565a68;
+  font-size: 11px;
+}
+
+.right li{
+  margin: 5px 10px;
+  list-style: none;
+  font-weight: bold;
+  color: #565a68;
+  font-size: 13px;
+}
+
+.search:focus-visible{
+  background-color: white !important;
+  border: 2px solid #f5f5f6 !important;
+  outline: none;
+}
+
+.product-repeat-image{
+  width: 9%;
+  height: auto;
+  margin: 1px;
+  min-width: 142px;
+  min-height: auto;
+}
